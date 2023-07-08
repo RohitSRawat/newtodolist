@@ -47,7 +47,7 @@ if(taskuser){
     await frontuser.save()
     const token = jwt.sign({ email: frontuser.email }, "admin");
     var expiryDate = new Date(Number(new Date()) + 864000000);
-    console.log('i m already nottask')
+    console.log('i m already nssssssottask')
 
     res.cookie("token", token, {
         httpOnly: true,
